@@ -25,6 +25,8 @@ function agua_necesaria(condicion, km) {
         agua_por_km = 0.7
     }
 
+    litros_totales = agua_por_km * km
+    
     return litros_totales
 
 }
